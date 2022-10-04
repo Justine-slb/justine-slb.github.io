@@ -1,1 +1,191 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <meta name="description"
+          content="in line Justine Seguin-Le boulanger's cv. Junior developer in Toulouse, south of France">
+    <meta name="keywords" content="web developer, Toulouse, south of France, front-end developer, back-end developer"/>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/parcours.css">
+    <script src="myscript.js"></script>
+    <title>Justine Seguin-Le boulanger</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="/" class="active">Justine<span> SEGUIN-LE BOULANGER</span></a>
+            <a href="#footer">Contact</a>
+            <a href="/cv">CV</a>
+            <a href="javascript:void(0);" class="icon" id="icon">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+<section id="intro">
+    <div class="title_text">
+        <h1>DEVELOPPEUR WEB<br></h1>
+    </div>
+</section>
+
+<section id="presentation">
+    <div class="img_container">
+        <img class="img_cv" id="photo_cv" src="img/img.png" alt="photo CV">
+    </div>
+    <div id="box_presentation">
+        <h3>bonjour!</h3>
+        <p style="color: black">
+            Je suis Justine,<br><br>Etudiante
+            passionnée en développement WEB, je prépare le titre de DEVELOPPEUR/CONCEPTEUR d'applications avec le
+            centre de formation O'Clock. <br>Je suis à la recherche d’une entreprise prête à m’accueillir et
+            m’accompagner durant 16 mois dans le cadre d’un contrat d'alternance à compter du 3
+            Octobre.
+            <br>Je vous laisse parcourir
+            le site et vous invite à prendre contact si vous souhaitez que l’on échange.
+            <br><br>Bonne visite !
+        </p>
+    </div>
+</section>
+
+<section class="formation_section" style="padding-top:2vmax">
+    <h2 style="margin:2vmax; ">recherche alternance</h2>
+    <div class="formation_detail">
+        <!--<img class="img_alternance" src="img/pro.jpg" alt="img_illustration">-->
+        <div class="formation_title">
+            <h6 style="text-transform: none">Formation Développeur / Concepteur d'applications</h6>
+            <p><br>Octobre 2022 - Mars 2024</p>
+            <a href="https://oclock.io/?adgroupname=Oclock&keyword=o%20clock&msclkid=0a1bf6028c3218abaf1794efa589e62b&utm_source=bing&utm_medium=cpc&utm_campaign=Brand&utm_term=o%20clock&utm_content=O%27clock">
+                <img src="img/Logo-oclock.png" alt="logo école o'clock" class="logo_oclock"></a>
+            <p>Mon profil est éligible à la prime d'état de 8000€ 1Jeune1Solution pour aider les entreprises à
+                embaucher des alternants</p>
+        </div>
+        <div class="rythm_formation">
+            <h4>Rythme alternance</h4>
+            <p class="rythm_details">la formation se déroule sur 16 mois répartis de la manière suivante:<br>
+                13 mois : 1 semaine à l'école/ 2 semaines en entreprise<br>
+                3 mois : 100% entreprise</p>
+        </div>
+    </div>
+    <div class="program_container">
+        <div class="programme_formation">
+            <button type="button" onclick="showorhide()">Programme de formation</button>
+            <div class="program_details" id="program_details">
+                <p>Client/Serveur <br>
+                    PHP & Programmation orientée objet<br>
+                    Conteneurisation (Docker)<br>
+                    PHP & Laravel<br>
+                    JavaScript & Vue.js <br>
+                    Gestion de projet (Cycle en V, méthodes agiles, Scrum)<br>
+                    Node.js & Express <br>
+                    NoSQL<br>
+                    API (REST, GraphQL, Websockets) <br>
+                    Failles de sécurité et parades (OWASP, injections) <br>
+                    Développement Mobile/Desktop (Flutter) <br>
+                    Total 721 heures de formation</p>
+            </div>
+        </div>
+        <img class="img_program" src="img/programme.jpg" alt="img_illustration">
+    </div>
+</section>
+
+<section class="program_section">
+
+</section>
+
+<section class="parcours">
+    <div class="array">
+        <div class="Courses">
+            <h2>experiences programmation</h2>
+            <br>
+            <div class="ynov">
+                <p><span>Ynov Campus Toulouse - 2021/2022</span></p>
+                <p>Bachelor 1 Informatique</p><br>
+            </div>
+            <div class="langages">
+                <h6>Langages de programmation</h6>
+                <p>- Golang</p>
+                <p>- Python</p>
+                <p>- Javascript</p>
+                <p>- C/C++ - initiation à la programmation orientée objet</p>
+            </div>
+            <div class="OS">
+                <h6>OS</h6>
+                <p>- Linux</p>
+                <p>- Windows</p>
+            </div>
+        </div>
+    </div>
+    <div class="projets">
+        <h6>Projets réalisés</h6>
+        <br>
+        <p><span>- Jeu de pendu avec interface web</span><br>
+            Technos : Golang / SQL / HTML / CSS
+            <br><br>
+        </p>
+        <p><span>- Site web Groupie tracker:</span><br>
+            Technos: API REST / Golang / HTML / CSS / Javascript
+            <br><br>
+        </p>
+        <p><span>- Site internet avec Crawler </span> pour récupérer les informations de Netflix et les
+            utiliser dans une interface web<br>
+            Technos: Node.js / Express / puppeteers / javascript / MySql / HTML / CSS
+            <br><br>
+        </p>
+        <p><span>- Site web Forum</span><br>
+            Technos: Golang / Sqlite/ HTML / CSS / javascript
+            <br><br>
+        </p>
+        <p><span>- Site web CV</span><br>
+            Technos: Angular / Javascript / Typescript / HTML / CSS
+        </p>
+    </div>
+</section>
+
+<section class="techno_container">
+    <h2>Technologies</h2>
+    <div>
+        <p>Voici les technologies avec lesquelles j'ai travaillé durant ma première année de formation avec l'école
+            YNOV Toulouse.<br>
+            Vous pouvez retrouver certains de mes projets sur mon profil <a
+                    href="https://github.com/Justine-slb">GITHUB</a>
+        </p>
+    </div>
+    <div class="img_techno">
+        <div><img class="img_tech" src="img/img_1.png" alt="nodeJs">
+            <p>NodeJs</p></div>
+        <div><img class="img_tech" src="img/img_2.png" alt="angular">
+            <p>Angular</p></div>
+        <div><img class="img_tech" src="img/img_3.png" alt="mysql">
+            <p>MySql/Sqlite</p></div>
+        <div><img class="img_tech" src="img/img_4.png" alt="js/ts">
+            <p>Javascript/Typescript</p></div>
+        <div><img class="img_tech" src="img/github.png" alt="github">
+            <p>Github</p></div>
+    </div>
+</section>
+<footer id="footer">
+    <div class="footer-link">
+        <div class="footer_contact">
+            <h5>CONTACTEZ-MOI</h5>
+            <a href="https://www.linkedin.com/in/Justine-Seguin-Le-boulanger" target="_blank"><img src="img/img_5.png" alt="logo linkedin"></a>
+            <a href="mailto:justine.leboulanger@gmail.com" >
+                <img src="img/img_6.png" alt="logo gmail">
+            </a>
+        </div>
+        <div class="footer_ressources">
+            <h5>RESSOURCES</h5>
+            <a href="/cv"  target="_blank" style="text-decoration: none">CV</a>
+            <a href="https://github.com/Justine-slb" style="text-decoration: none"><img src="img/github.png" style="background-color: white"/></a>
+        </div>
+    </div>
+    <div style="margin:auto; width: 100%;"><p style="color:white;text-align: center; padding-bottom: 5vmax">© 2022 Justine SEGUIN-LE BOULANGER</p></div>
+</footer>
+</body>
+</html>

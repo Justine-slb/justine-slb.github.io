@@ -1,0 +1,45 @@
+p span {
+    font-weight: 700;
+    font-size: 3.2vmin
+}
+
+.projets p {
+    font-weight: 100;
+}
+
+.parcours {
+    width: 70%;
+    margin: 2vmax auto;
+    padding: 2vmax;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ynov{
+    width: 20vmax;
+    color: black;
+}
+
+.array {
+    background-color: #eeeeee;
+    padding: 2vmax;
+    width: 50%;
+    height: fit-content;
+    box-shadow: 2px 4px 10px black;
+}
+.projets {
+    background-color: #222222;
+    color: white;
+    padding:2vmax;
+    height: fit-content;
+    margin-left: -8vmax;
+    margin-top: 7vmax;
+    width: 50%;
+    box-shadow: 2px 4px 10px black;
+}
+
+@media all and (max-width: 900px) {
+    .projets, .array{
+        width: 100%;
+        margin: auto;
+    }
+}

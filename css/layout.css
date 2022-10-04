@@ -1,0 +1,306 @@
+@import url("https://www.1001fonts.com/lemon-sundae-demo-font.html");
+
+body{
+    background-image: url('wallpaper.jpg');
+    background-size: cover;
+    background-position: center; /* Center the image */
+    background-repeat: repeat; /* Do not repeat the image */
+    opacity: 1;
+    width: 100%;
+}
+
+/* font style */
+p {
+    font-family: "Yu Gothic Light", Arial, sans-serif;
+    font-size: 1vmax;
+    padding:0;
+    margin:0;
+}
+
+h1 {
+    font-family: "Yu Gothic Light", Arial, sans-serif;
+    font-size: 5vmax;
+    text-align: center;
+}
+
+h1 span {
+    font-size: 4vmax;
+    font-family: Yu Gothic UI Light, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    margin-right: -30vmax;
+}
+
+
+h2 {
+    color: black;
+    font-family: "Yu Gothic", sans-serif;
+    font-weight: 700;
+    font-size: 4vmin;
+    text-transform: uppercase;
+    margin: 0;
+
+    padding:1vmax
+}
+
+h3 {
+    font-family: inter, sans-serif;
+    font-weight: 700;
+    font-size: 2.5vmax;
+    letter-spacing: 0.2vmax;
+    text-transform: uppercase;
+}
+
+h4{
+    font-size: 2vmax;
+    color: black;
+    text-transform: uppercase;
+    background-color: white;
+    margin-top:0;
+    padding:1vmax
+}
+
+button {
+    font-size: 2vmax;
+    color: black;
+    text-transform: uppercase;
+    background-color: white;
+    padding: 2vmin;
+    margin: auto 2vmax;
+    border: none;
+}
+
+h6{
+    font-size: 3.5vmin;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin:0;
+}
+
+/*section 1*/
+#intro{
+    background-color: #111111;
+    width: 100%;
+    padding: 3vmax 0;
+}
+
+#title {
+    width: 100%;
+    height: auto;
+    color: white;
+    font-family: inter, sans-serif;
+    font-weight: bolder;
+    padding-bottom: 2vmax;
+}
+
+.title_text {
+    color: white;
+    text-justify: auto;
+    display: block;
+    margin-top: 2vmax;
+}
+
+.title_text h2 {
+    margin-right: 4vmax;
+    margin-top: 5vmax;
+}
+
+ /*img CV + color boxes*/
+.img_container {
+    margin:auto;
+    width: 60%;
+    height: auto;
+    background-color: #111111;
+}
+
+.img_cv {
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: -4vmax;
+    bottom: -4vmax;
+    padding:0;
+}
+
+/*paragraphe presentation*/
+#presentation {
+    background-color: #eeeeee;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 4vmax;
+    padding-top: 2vmax;
+}
+
+#box_presentation {
+    position: relative;
+    margin:auto;
+    display: block;
+    padding: 2vmax;
+}
+
+/*section formation*/
+.formation_section{
+    height: 100%;
+    width: 80%;
+    background-color: white ;
+    margin: 2vmax auto;
+}
+
+.program_section{
+    background-color: #222222;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+.formation_title{
+    display: block;
+    width: 80%;
+    margin:auto;
+    color: black;
+    text-align: center;
+}
+
+.logo_oclock{
+    margin:1vmax auto;
+    width: 50%;
+}
+
+.formation_detail{
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-template-columns: 50% 50%;
+    padding: 2vmax 0;
+}
+
+.program_container{
+    background-color: #222222;
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-template-columns: 50% 50%;
+}
+
+.img_alternance, .img_program{
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.alternance {
+    width: 80%;
+    margin: auto;
+}
+
+.rythm_formation {
+    background-color: #222222;
+    margin:auto;
+    height: fit-content;
+    text-align: center;
+    color: white;
+    padding: 2vmax;
+}
+
+.programme_formation{
+    height:auto;
+    text-align: center;
+    margin: auto ;
+}
+
+.info_formation_box{
+    display: block;
+    margin:auto;
+}
+
+.program_details {
+    display:none;
+    padding: 10px;
+    -webkit-transition: visibility 400ms;
+    transition: visibility 100ms;
+    color: white;
+}
+
+.programme_formation:hover button{
+    background-color: #51d6b6;
+    color: beige;
+    transition: color 0.6s ease-out;
+
+}
+
+.techno_container{
+    background-color: white;
+    padding:2vmax 2vmax;
+    width: 80%;
+    margin:auto ;
+}
+
+.img_techno{
+    margin: 2vmax auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.img_techno div {
+    margin: auto;
+}
+
+.img_techno div .img_tech{
+    width: 6vmax;
+}
+.img_tech {
+    margin-bottom: 1vmax;
+}
+
+
+
+@media all and (max-width: 900px) {
+    p {
+        font-family: "Yu Gothic", Arial, sans-serif;
+        font-weight: normal;
+        font-size: 3vmin;
+        line-height: 1.6;
+    }
+    #title {
+        display: block;
+        text-align: center;
+    }
+    #title_text{
+        width: 70%;
+        margin:auto;
+    }
+
+
+    h2, h1 {
+        text-align: center;
+    }
+
+    #presentation {
+        display: block;
+        text-align: center;
+        height: auto;
+        padding-top:2vmax;
+    }
+
+    #box_presentation {
+        right: 0;
+        padding-bottom:1vmax;
+        padding-top:2vmax;
+    }
+
+    .img_container {
+        width: 50%;
+    }
+    .logo_oclock{
+        margin:1vmax auto;
+        width: 80%;
+    }
+    .formation_detail{
+        display:block;
+    }
+    .formation_title{
+        padding-bottom: 2vmax;
+    }
+}
